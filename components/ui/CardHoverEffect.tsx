@@ -6,12 +6,10 @@ import { useState } from 'react';
 export const HoverEffect = ({
   items,
   className,
-  imgUrl,
 }: {
   items: {
     title: string;
     description: string;
-    imgUrl?: string;
   }[];
   className?: string;
 }) => {
@@ -27,6 +25,7 @@ export const HoverEffect = ({
       {items.map((item, idx) => (
         <div
           className="relative group  block p-2 h-full w-full"
+          key={idx}
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >

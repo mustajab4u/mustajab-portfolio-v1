@@ -13,8 +13,8 @@ const Clients = () => {
         <span className="text-purple"> satisfied clients</span>
       </h1>
       <h6 className='mx-auto mt-4 text-gray-500 w-[50vw] text-center'>
-        [This isn't real data. I've never worked with anyone before, but I'm
-        hoping you'll be the first. If you work with me, I'd love to feature
+        [This isn&apos;t real data. I&apos;ve never worked with anyone before, but I&apos;m
+        hoping you&apos;ll be the first. If you work with me, I&apos;d love to feature
         your positive feedback here]
       </h6>
       <div className="flex flex-col items-center mt-10">
