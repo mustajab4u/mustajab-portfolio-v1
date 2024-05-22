@@ -6,10 +6,12 @@ import { useState } from 'react';
 export const HoverEffect = ({
   items,
   className,
+  imgUrl,
 }: {
   items: {
     title: string;
     description: string;
+    imgUrl?: string;
   }[];
   className?: string;
 }) => {

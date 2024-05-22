@@ -67,7 +67,7 @@ const MyTech = () => {
           ]}
         />
         <p className="text-center mb-16 md:tracking-wider text-sm md:text-lg lg:text-2xl">
-          I'm a skilled web developer.
+          I&apos;m a skilled web developer.
         </p>
       </div>
     </HeroHighlight>
